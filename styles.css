@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 0px;
 }
     
 .header {
@@ -13,8 +12,9 @@ body {
 }
 
 .header-title {
-    font-size: 24px;
+    font-size: 36px;
     margin-left: 50px;
+    font-weight: 800;
 }
 
 ul {
@@ -27,3 +27,33 @@ a {
     text-decoration: none;
 }
 
+.intro {
+    display: flex;
+    border-style: solid;
+    gap: 20px;
+}
+
+.intro .left {
+    padding: 10px 20px;
+}
+
+.intro-title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.intro-text {
+    font-size: 20px;
+}
+
+.intro button {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.intro img {
+    width: 400px;
+    height: auto;
+    margin:10px 20px;
+}
