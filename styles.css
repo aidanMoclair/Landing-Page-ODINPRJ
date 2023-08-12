@@ -8,14 +8,17 @@ body {
     display: flex;
     padding: 8px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 250px;
     border-style: solid; 
+    background-color: #1F2937;
 }
 
 .header-title {
-    font-size: 36px;
     margin-left: 50px;
-    font-weight: 800;
+    color: #F9FAF8;
+    font-size: 24px;
+    
 }
 
 ul {
@@ -26,6 +29,8 @@ ul {
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .intro {
