@@ -122,3 +122,11 @@ a {
     padding: 20px;
     justify-content: space-between;
 }
+
+.footer {
+    display: flex;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+}
