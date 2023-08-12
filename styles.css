@@ -113,3 +113,12 @@ a {
     margin-right: 35%;
     font-size: 24px;
 }
+
+.sign-up {
+    display: flex;
+    gap: 100px;
+    border-style: solid;
+    margin: 20px 100px;
+    padding: 20px;
+    justify-content: space-between;
+}
