@@ -74,22 +74,25 @@ button {
 .info{
     display: flex;
     flex-direction: column;
-    border-style: solid;
+    
 }
 
 .info .title {
     text-align: center;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: bolder;
     margin-top: 20px;
     margin-bottom: 10px;
-    border-style: solid;
+    color: #1F2937;
 }
 
 
 .bottom{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 30px;
+    padding-bottom: 40px;
 }
 
 .caption {
@@ -97,43 +100,51 @@ button {
     flex-direction: column;
     align-items: center;
     width: 200px;
-    border-style: solid;
 }
 
 .caption img {
     width: 150px;
     height: auto;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
 }
 
 .caption .text {
     font-size: 18px;
+    color:#1F2937;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
-    border-style: solid;
+    padding: 40px;
+    background-color: #E5E7EB;
 }
 
 .quote .text{
     font-size: 36px;
     text-align: center;
-    font-weight: 500;
+    font-style: italic;
+    color: #1F2937;
 }
 .quote .author{
     display: flex;
     justify-content: right;
     margin-right: 35%;
     font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 .sign-up {
     display: flex;
     gap: 100px;
-    border-style: solid;
+    border-radius: 8px;
     margin: 20px 100px;
     padding: 20px;
     justify-content: space-between;
+    background-color: #3882F6;
 }
 
 .footer {
