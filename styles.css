@@ -167,8 +167,10 @@ button {
 
 .footer {
     display: flex;
-    border-style: solid;
     align-items: center;
     justify-content: center;
     height: 64px;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
 }
