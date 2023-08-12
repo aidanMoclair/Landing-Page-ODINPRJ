@@ -10,7 +10,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 250px;
-    border-style: solid; 
     background-color: #1F2937;
 }
 
@@ -35,8 +34,10 @@ a {
 
 .intro {
     display: flex;
-    border-style: solid;
+    justify-content: center;
     gap: 20px;
+    padding: 20px 40px;
+    background-color: #1F2937;
 }
 
 .intro .left {
@@ -44,18 +45,24 @@ a {
 }
 
 .intro .title {
-    font-size: 24px;
-    text-align: center;
-    font-weight: 600;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+
 }
 
 .intro .text {
-    font-size: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
-.intro button {
-    font-size: 20px;
+button {
+    font-size: 18px;
     padding: 8px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+
 }
 
 .intro img {
