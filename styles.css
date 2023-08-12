@@ -3,13 +3,13 @@ body {
     flex-direction: column;
     padding: 0px;
 }
-
+    
 .header {
     display: flex;
     padding: 8px;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(228, 82, 82);
+    border-style: solid; 
 }
 
 .header-title {
